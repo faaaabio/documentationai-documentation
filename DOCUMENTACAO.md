@@ -412,7 +412,20 @@ Aberto ao clicar em um agendamento. Contém:
 
 ---
 
-## Estrutura de Arquivos (Screenshots — App)
+## Página: Booking Público (`booking.zavvy.com.br/:slug`)
+
+**Screenshots:** `screenshots/app/booking/`
+
+Página pública de agendamento, acessível por clientes sem login. Exibe os serviços disponíveis e permite selecionar horário.
+
+| Screenshot | Conteúdo |
+|------------|---------|
+| `01-pagina-publica.png` | Topo — nome do profissional, serviços disponíveis |
+| `02-pagina-publica-bottom.png` | Seleção de data/horário e formulário do cliente |
+
+---
+
+## Estrutura de Arquivos (Screenshots)
 
 ```
 screenshots/
@@ -433,16 +446,23 @@ screenshots/
     │   └── 01-home.png
     ├── agenda/
     │   ├── 01-semana.png
-    │   ├── 02-detalhe-agendamento.png
-    │   └── 03-lista.png
+    │   ├── 02-modal-detalhe.png
+    │   ├── 03-lista.png
+    │   ├── 04-dia.png
+    │   └── 05-novo-agendamento.png
     ├── clientes/
     │   ├── 01-lista.png
     │   ├── 02-perfil-historico.png
     │   ├── 03-perfil-mensagens.png
     │   └── 04-perfil-anotacoes.png
-    └── configuracoes/
-        ├── 01-geral.png
-        └── 02-integracoes.png
+    ├── configuracoes/
+    │   ├── 01-geral.png
+    │   ├── 02-conta.png
+    │   ├── 03-servicos.png
+    │   ├── 04-horarios.png
+    │   ├── 05-perfil.png
+    │   └── 06-assinatura.png
+    └── booking/
+        ├── 01-pagina-publica.png
+        └── 02-pagina-publica-bottom.png
 ```
-
-> ⚠️ Screenshots do app (`screenshots/app/`) serão capturados quando a extensão Chrome reconectar.
