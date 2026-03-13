@@ -1,9 +1,17 @@
 # Summary
 
 * [Introdução](README.md)
-* [Produto](docs/produto.md)
-* [Personas](docs/personas.md)
 
-* [QA](docs/qa.md)
-* [Bugs](docs/bugs.md)
+## Produto
 
+* [Visão Geral](docs/produto/visao-geral.md)
+* [Personas](docs/produto/personas.md)
+
+## UX
+
+* [QA](docs/ux/qa.md)
+
+## UI
+
+* [QA](docs/ui/qa.md)
+* [Bugs](docs/ui/bugs.md)
