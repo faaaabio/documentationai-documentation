@@ -1,0 +1,7 @@
+/* Fix: scroll horizontal em tabelas no mobile */
+.book-body .page-wrapper .page-inner section.normal table {
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
