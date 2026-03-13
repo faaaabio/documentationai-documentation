@@ -12,7 +12,7 @@
 
 | ID | Descrição | Área | Resolvido em |
 |----|-----------|------|--------------|
-| B-004 | No mobile, não é possível fazer swipe horizontal nas tabelas — bug do HonKit | HonKit / Docs | 2026-03-13 |
+| — | — | — | — |
 
 ---
 
