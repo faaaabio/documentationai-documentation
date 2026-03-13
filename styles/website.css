@@ -3,3 +3,85 @@
 * {
   font-family: 'Plus Jakarta Sans', system-ui, sans-serif !important;
 }
+
+/* ─── Dark theme ─────────────────────────────── */
+
+body, .book {
+  background: #111827 !important;
+  color: #e5e7eb !important;
+}
+
+.book-summary {
+  background: #1f2937 !important;
+  color: #e5e7eb !important;
+}
+
+.book-summary ul.summary li a {
+  color: #d1d5db !important;
+}
+
+.book-summary ul.summary li a:hover,
+.book-summary ul.summary li.active > a {
+  color: #fff !important;
+  background: #374151 !important;
+}
+
+.book-summary ul.summary li.divider {
+  background: #374151 !important;
+}
+
+.book-body, .page-wrapper, .page-inner {
+  background: #111827 !important;
+  color: #e5e7eb !important;
+}
+
+.book-header {
+  background: #1f2937 !important;
+  border-bottom: 1px solid #374151 !important;
+}
+
+.book-header a {
+  color: #d1d5db !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f9fafb !important;
+}
+
+a {
+  color: #6ee7b7 !important;
+}
+
+a:hover {
+  color: #34d399 !important;
+}
+
+table th {
+  background: #1f2937 !important;
+  color: #f9fafb !important;
+  border-color: #374151 !important;
+}
+
+table td {
+  border-color: #374151 !important;
+  color: #e5e7eb !important;
+}
+
+table tr:nth-child(even) {
+  background: #1f2937 !important;
+}
+
+code, pre {
+  background: #1f2937 !important;
+  color: #6ee7b7 !important;
+  border-color: #374151 !important;
+}
+
+blockquote {
+  border-left-color: #374151 !important;
+  color: #9ca3af !important;
+}
+
+.navigation-prev, .navigation-next {
+  color: #d1d5db !important;
+}
