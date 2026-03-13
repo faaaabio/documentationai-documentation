@@ -1,6 +1,4 @@
-# QA — UI
-
-Critérios de qualidade visual e acessibilidade.
+# Acessibilidade
 
 | # | Critério | Como verificar | Resultado esperado |
 |---|----------|----------------|--------------------|

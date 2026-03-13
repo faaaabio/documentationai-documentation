@@ -1,6 +1,8 @@
-# Zavvy
+# Zavvy — Documentação Interna
 
-Agendamento inteligente para profissionais. Crie seu link de agendamento e receba clientes de forma organizada, com confirmação automática pelo WhatsApp.
+Este espaço reúne a documentação de produto, design e qualidade do Zavvy.
 
-> Site: https://zavvy.com.br
-> App: https://app.zavvy.com.br
+## O que você encontra aqui
+
+- **Produto** — visão geral, personas e casos de uso
+- **Design** — critérios de acessibilidade e registro de bugs

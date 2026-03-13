@@ -1,12 +1,11 @@
 # Casos de Uso
 
-| # | Ator | Ação | Objetivo |
-|---|------|------|----------|
-| 1 | Profissional | Configurar negócio, serviços e horários | Ficar disponível para receber agendamentos |
-| 2 | Profissional | Compartilhar link ou QR Code | Permitir que clientes agendem sem contato direto |
-| 3 | Cliente | Acessar link e agendar horário | Marcar atendimento sem criar conta |
-| 4 | Profissional | Visualizar e gerenciar agenda | Acompanhar confirmações, cancelamentos e conclusões |
-| 5 | Profissional | Consultar perfil e histórico do cliente | Entender o relacionamento e registrar anotações |
-| 6 | Profissional | Ativar Assistente IA | Responder clientes automaticamente pelo WhatsApp |
-| 7 | Proprietário | Gerenciar equipe | Adicionar profissionais e separar agendas por membro |
-| 8 | Cliente | Receber confirmação e lembrete | Ser notificado automaticamente via WhatsApp |
+| # | Ator | Situação do dia a dia | Como o Zavvy resolve |
+|---|------|----------------------|----------------------|
+| 1 | Profissional | Perde tempo configurando horários disponíveis manualmente | Configura negócio, serviços e disponibilidade uma única vez |
+| 2 | Profissional | Precisa enviar o contato para cada cliente novo que quer agendar | Compartilha link ou QR Code e o cliente agenda sozinho |
+| 3 | Cliente | Tem que ligar ou mandar mensagem e esperar confirmação | Acessa o link e agenda o horário na hora, sem criar conta |
+| 4 | Profissional | Não sabe o que tem no dia sem consultar várias conversas | Visualiza e gerencia toda a agenda em um único lugar |
+| 5 | Profissional | Não lembra do histórico do cliente antes do atendimento | Consulta perfil e anotações do cliente antes da sessão |
+| 6 | Proprietário | Gerenciar agenda de vários profissionais gera conflitos | Adiciona profissionais e separa agendas por membro da equipe |
+| 7 | Cliente | Esquece o horário agendado e não aparece | Recebe confirmação e lembrete automático via WhatsApp |
