@@ -66,6 +66,34 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Zavvy",
+        "groups": [
+          {
+            "group": "Produto",
+            "pages": [
+              "novos/produto/visao-geral",
+              "novos/produto/casos-de-uso",
+              "novos/produto/personas"
+            ]
+          },
+          {
+            "group": "Pesquisa",
+            "pages": [
+              "novos/pesquisa/mercado",
+              "novos/pesquisa/oportunidades",
+              "novos/pesquisa/profissionais"
+            ]
+          },
+          {
+            "group": "Design",
+            "pages": [
+              "novos/design/acessibilidade",
+              "novos/design/bugs"
+            ]
+          }
+        ]
       }
     ],
     "global": {
