@@ -1,0 +1,50 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Zavvy",
+  "theme": "mint",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#22C55E",
+    "dark": "#15803D"
+  },
+  "favicon": "favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentação",
+        "groups": [
+          {
+            "group": "Introdução",
+            "pages": ["index"]
+          },
+          {
+            "group": "Produto",
+            "pages": [
+              "produto/visao-geral",
+              "produto/personas",
+              "produto/casos-de-uso"
+            ]
+          },
+          {
+            "group": "Pesquisa",
+            "pages": [
+              "pesquisa/profissionais",
+              "pesquisa/mercado",
+              "pesquisa/oportunidades"
+            ]
+          },
+          {
+            "group": "Design",
+            "pages": [
+              "design/acessibilidade",
+              "design/bugs"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {}
+  }
+}

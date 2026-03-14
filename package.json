@@ -1,9 +1,9 @@
 {
   "devDependencies": {
-    "honkit": "latest"
+    "mintlify": "latest"
   },
   "scripts": {
-    "build": "honkit build",
-    "serve": "honkit serve"
+    "dev": "mintlify dev",
+    "build": "mintlify build"
   }
 }
