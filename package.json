@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "mintlify": "latest"
+  },
+  "scripts": {
+    "dev": "mintlify dev",
+    "build": "mintlify build"
+  }
+}
