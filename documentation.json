@@ -29,10 +29,14 @@
             "group": "Módulos",
             "icon": "bug",
             "pages": [
-              {
-                "title": "Bugs",
-                "path": "design/bugs"
-              }
+              { "title": "Agenda", "path": "modulos/agenda" },
+              { "title": "Cadastro", "path": "modulos/cadastro" },
+              { "title": "Equipes", "path": "modulos/equipes" },
+              { "title": "Link do Profissional", "path": "modulos/link-profissional" },
+              { "title": "Serviços", "path": "modulos/servicos" },
+              { "title": "QR Code", "path": "modulos/qr-code" },
+              { "title": "Notificações", "path": "modulos/notificacoes" },
+              { "title": "Clientes", "path": "modulos/clientes" }
             ]
           },
           {
