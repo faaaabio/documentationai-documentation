@@ -21,26 +21,8 @@
             "icon": "home",
             "pages": [
               {
-                "title": "Início",
+                "title": "Status",
                 "path": "index"
-              }
-            ]
-          },
-          {
-            "group": "Experiência",
-            "icon": "search",
-            "pages": [
-              {
-                "title": "Profissionais",
-                "path": "pesquisa/profissionais"
-              },
-              {
-                "title": "Mercado",
-                "path": "pesquisa/mercado"
-              },
-              {
-                "title": "Oportunidades",
-                "path": "pesquisa/oportunidades"
               }
             ]
           },
@@ -59,6 +41,29 @@
               {
                 "title": "Melhorias",
                 "path": "design/melhorias"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Experiência",
+        "icon": "search",
+        "groups": [
+          {
+            "group": "Experiência",
+            "pages": [
+              {
+                "title": "Profissionais",
+                "path": "pesquisa/profissionais"
+              },
+              {
+                "title": "Mercado",
+                "path": "pesquisa/mercado"
+              },
+              {
+                "title": "Oportunidades",
+                "path": "pesquisa/oportunidades"
               }
             ]
           }
