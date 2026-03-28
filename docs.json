@@ -44,14 +44,10 @@
             "group": "Global",
             "icon": "globe",
             "pages": [
-              {
-                "title": "Acessibilidade",
-                "path": "design/acessibilidade"
-              },
-              {
-                "title": "Melhorias",
-                "path": "design/melhorias"
-              }
+              { "title": "Tipografia", "path": "global/tipografia" },
+              { "title": "Contraste", "path": "global/contraste" },
+              { "title": "Imagens", "path": "global/imagens" },
+              { "title": "Agenda", "path": "global/agenda" }
             ]
           }
         ]
