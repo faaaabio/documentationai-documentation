@@ -80,21 +80,6 @@
         ]
       },
       {
-        "tab": "Changelog",
-        "icon": "clock-rotate-left",
-        "groups": [
-          {
-            "group": "Changelog",
-            "pages": [
-              {
-                "title": "Atualizações",
-                "path": "changelog/index"
-              }
-            ]
-          }
-        ]
-      },
-      {
         "tab": "Review",
         "icon": "book",
         "groups": [
@@ -161,6 +146,21 @@
               {
                 "title": "Imagens",
                 "path": "global/imagens"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock-rotate-left",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              {
+                "title": "Atualizações",
+                "path": "changelog/index"
               }
             ]
           }
