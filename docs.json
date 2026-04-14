@@ -20,16 +20,24 @@
             "group": "Documentação",
             "pages": [
               {
-                "title": "Novos Cenários",
-                "path": "docs/novos-cenarios"
+                "title": "Conceito",
+                "path": "docs/conceito"
+              },
+              {
+                "title": "Padronização",
+                "path": "docs/padronizacao"
+              },
+              {
+                "title": "Referência Visual",
+                "path": "docs/referencia-visual"
               },
               {
                 "title": "Prompts",
                 "path": "docs/prompts"
               },
               {
-                "title": "Referência Visual",
-                "path": "docs/referencia-visual"
+                "title": "Novos Cenários",
+                "path": "docs/novos-cenarios"
               }
             ]
           }
