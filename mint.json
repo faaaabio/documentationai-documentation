@@ -1,0 +1,51 @@
+{
+  "name": "Zavvy Marketing Docs",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#000000",
+    "light": "#ffffff",
+    "dark": "#111111"
+  },
+  "topbarCtaButton": {
+    "name": "Acessar Site",
+    "url": "https://zavvy.com.br"
+  },
+  "anchors": [
+    {
+      "name": "Docs",
+      "icon": "book-open",
+      "url": "/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Visão Geral e Planejamento",
+      "pages": [
+        "plano/plano-marketing-zavvy-completo"
+      ]
+    },
+    {
+      "group": "Conteúdo e Redes Sociais",
+      "pages": [
+        "plano/calendario-instagram-zavvy",
+        "plano/relatorio-posts-stories-zavvy"
+      ]
+    },
+    {
+      "group": "Documentação Interna",
+      "pages": [
+        "docs/novos-cenarios",
+        "docs/prompts",
+        "docs/referencia-visual"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://zavvy.com.br",
+    "instagram": "https://instagram.com/zavvy"
+  }
+}

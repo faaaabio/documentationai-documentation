@@ -1,0 +1,164 @@
+# Referência Visual — Personagem Verde Zavvy
+
+Guia de consistência para novos vídeos. Tudo aqui foi extraído dos vídeos gerados.
+Use como base para manter o padrão entre peças.
+
+**Prompts:** [prompts.md](prompts.md)
+
+---
+
+## Personagem Verde
+
+| Atributo | Padrão |
+|----------|--------|
+| Cobertura | Corpo inteiro — cabeça, rosto, mãos, pés |
+| Roupa | Morphsuit / zentai — sem costuras, detalhes ou texturas visíveis |
+| Cor | Verde vivo · `#00C840` · não escuro, não neon, não amarelado |
+| Rosto | Completamente coberto — sem feições |
+| Biotipo | Proporções humanas normais, esguio |
+| Gênero | Neutro — indistinguível pela cobertura total |
+
+### Postura e comportamento
+
+- Ereta, calma, confiante — nunca apressado
+- Sempre segurando ou operando o smartphone
+- Movimentos lentos e deliberados — nunca bruscos
+- Posição recorrente: de pé, próximo à janela ou à cama
+- Presença discreta — age como se fosse natural estar ali
+
+### Cor sob diferentes luzes
+
+| Contexto | Aparência |
+|----------|-----------|
+| Noite (brilho do celular) | Verde com reflexo azulado frio |
+| Madrugada | Verde neutro com sombras profundas |
+| Amanhecer (janela) | Contraluz dourado — silhueta com verde visível |
+| Close-up das mãos | Verde saturado, reflexo da tela, sombras suaves |
+
+---
+
+## Ambiente
+
+| Elemento | Descrição |
+|----------|-----------|
+| Estilo | Hotel de luxo contemporâneo / apartamento premium |
+| Janela | Panorâmica do piso ao teto — parede esquerda — vista para o oceano |
+| Cortinas | Brancas, translúcidas, fluindo levemente |
+| Piso | Madeira clara — carvalho natural, tom quente |
+| Parede direita | Painel de madeira escura — headboard embutido |
+| Cama | Plataforma baixa, roupa branca/creme, múltiplos travesseiros |
+| Pessoa | Deitada **por cima** das cobertas — não embaixo |
+| Abajur | Cilíndrico, tom escuro — fixado na parede, lateral direita |
+| Poltrona | Escura, design moderno — canto esquerdo ao fundo |
+| Mesinha | Escura, superfície lisa |
+
+---
+
+## A Pessoa que Dorme
+
+| Atributo | Padrão |
+|----------|--------|
+| Gênero | Masculino |
+| Cabelo | Escuro, curto |
+| Barba | Curta, aparada |
+| Roupa | Camiseta branca + calça casual — ainda vestido |
+| Posição | Deitado de costas, rosto visível |
+| Estado | Completamente relaxado — não acorda |
+
+---
+
+## Iluminação
+
+```
+NOITE ──────────────── MADRUGADA ──────────────── AMANHECER
+Azul frio · escuro     Azul + verde              Dourado · âmbar
+Brilho do celular      Luz ambiente + celular     Contraluz pela janela
+Sombras duras          Sombras médias             Luz difusa nas cortinas
+```
+
+| Momento | Tons | Fonte |
+|---------|------|-------|
+| Noite | Azul-escuro, índigo, preto | Tela do celular |
+| Madrugada | Azul + verde do personagem | Ambiente + celular |
+| Amanhecer | Dourado, âmbar, branco quente | Luz solar pela janela |
+
+---
+
+## Câmera
+
+| Parâmetro | Padrão |
+|-----------|--------|
+| Movimento | Lento, deslizante — sem cortes bruscos |
+| Profundidade de campo | Rasa — fundo sempre em bokeh |
+| Planos | Plano aberto · Close-up mãos + tela · Perfil do personagem |
+| FPS | 24 — look cinematográfico |
+
+### Proporções por uso
+
+| Formato | Proporção | Uso |
+|---------|-----------|-----|
+| Cinema / YouTube | 21:9 | Plataformas horizontais |
+| Feed Instagram | 4:3 | Mobile-first |
+| Stories / Reels | 9:16 | Vertical nativo |
+
+---
+
+## Smartphone
+
+| Atributo | Padrão |
+|----------|--------|
+| Modelo visual | Estilo iPhone — bordas retas, frame prateado |
+| Interface | Chat estilo iMessage — balões azuis (enviados) · brancos (recebidos) |
+| Estado | Tela acesa, conversas em andamento |
+
+---
+
+## Tipografia
+
+| Atributo | Padrão |
+|----------|--------|
+| Texto PT | `Sua empresa nunca dorme.` |
+| Texto EN | `Your business never sleeps.` |
+| Cor | Branco puro |
+| Fonte | Sans-serif — peso regular/medium (SF Pro · Inter · similar) |
+| Posição | Centro ou centro-esquerda, sobre a imagem |
+| Animação | Nenhuma — overlay estático |
+
+---
+
+## Prompt base reutilizável
+
+Bloco de consistência — cole no início de novos prompts:
+
+```
+Pessoa vestida inteiramente com morphsuit verde vivo, cobrindo todo o corpo incluindo
+cabeça e rosto, cor verde saturada (#00C840), sem feições visíveis, de pé segurando
+um smartphone com calma. Movimentos lentos, suaves e confiantes.
+
+Quarto moderno de hotel de luxo, janela panorâmica do piso ao teto com vista para
+o oceano, cortinas de linho brancas, piso de madeira clara quente, cama plataforma
+baixa com roupa de cama branca, homem de camiseta branca deitado por cima das cobertas.
+
+Iluminação noturna azul cinematográfica fazendo transição para luz dourada do amanhecer
+entrando pela janela. Profundidade de campo rasa, movimento lento de câmera, estética
+minimalista estilo Apple, visual ultra premium, sombras suaves, look cinematográfico 24fps.
+```
+
+---
+
+## Limites de consistência
+
+**Não alterar:**
+- Cor do personagem — `#00C840`, sem variações
+- Cobertura total do personagem — sem pele exposta
+- O ambiente — mesmo quarto, mesma janela panorâmica
+- Progressão de luz natural — sem estrobos ou luzes artificiais coloridas
+- Outros personagens no plano
+- Tipografia final — mesma fonte, mesmo peso, branco
+
+**Pode variar:**
+- Ângulo e enquadramento
+- Proporção (21:9 · 4:3 · 9:16)
+- Momento da cena (noite · madrugada · amanhecer)
+- Ação do personagem (digitando · segurando · caminhando)
+- Idioma da tagline (PT · EN)
