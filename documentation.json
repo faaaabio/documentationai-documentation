@@ -16,15 +16,20 @@
         "icon": "book",
         "groups": [
           {
-            "group": "Início",
-            "pages": ["index"]
-          },
-          {
             "group": "Documentação",
             "pages": [
-              "docs/novos-cenarios",
-              "docs/prompts",
-              "docs/referencia-visual"
+              {
+                "title": "Novos Cenários",
+                "path": "docs/novos-cenarios"
+              },
+              {
+                "title": "Prompts",
+                "path": "docs/prompts"
+              },
+              {
+                "title": "Referência Visual",
+                "path": "docs/referencia-visual"
+              }
             ]
           }
         ]
