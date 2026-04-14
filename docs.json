@@ -18,28 +18,14 @@
         "groups": [
           {
             "group": "Início",
-            "pages": [
-              {
-                "title": "Home",
-                "path": "index"
-              }
-            ]
+            "pages": ["index"]
           },
           {
             "group": "Documentação",
             "pages": [
-              {
-                "title": "Novos Cenários",
-                "path": "docs/novos-cenarios"
-              },
-              {
-                "title": "Prompts",
-                "path": "docs/prompts"
-              },
-              {
-                "title": "Referência Visual",
-                "path": "docs/referencia-visual"
-              }
+              "docs/novos-cenarios",
+              "docs/prompts",
+              "docs/referencia-visual"
             ]
           }
         ]
