@@ -19,6 +19,11 @@
       "name": "Docs",
       "icon": "book-open",
       "url": "/"
+    },
+    {
+      "name": "Nova Aba",
+      "icon": "folder-plus",
+      "url": "/nova-aba"
     }
   ],
   "navigation": [
