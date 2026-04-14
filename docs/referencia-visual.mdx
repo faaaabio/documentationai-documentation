@@ -1,9 +1,11 @@
-# Referência Visual — Personagem Verde Zavvy
+---
+title: Referência Visual
+description: Guia de consistência para os vídeos do personagem verde Zavvy.
+---
 
-Guia de consistência para novos vídeos. Tudo aqui foi extraído dos vídeos gerados.
-Use como base para manter o padrão entre peças.
+Guia de consistência para novos vídeos. Tudo aqui foi extraído dos vídeos gerados. Use como base para manter o padrão entre peças.
 
-**Prompts:** [prompts.md](prompts.md)
+**Prompts:** [Prompts dos Vídeos](prompts)
 
 ---
 
@@ -34,6 +36,29 @@ Use como base para manter o padrão entre peças.
 | Madrugada | Verde neutro com sombras profundas |
 | Amanhecer (janela) | Contraluz dourado — silhueta com verde visível |
 | Close-up das mãos | Verde saturado, reflexo da tela, sombras suaves |
+
+---
+
+## Frames de referência
+
+<div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))", gap: "12px", marginBottom: "32px" }}>
+  <div>
+    <img src="/frames/v1_002.jpg" alt="Personagem — mão verde" style={{ width: "100%", borderRadius: "6px" }} />
+    <p style={{ fontSize: "0.8rem", color: "var(--muted)", marginTop: "4px" }}>Mão verde — reflexo azulado noturno</p>
+  </div>
+  <div>
+    <img src="/frames/v1_005.jpg" alt="Personagem — plano aberto" style={{ width: "100%", borderRadius: "6px" }} />
+    <p style={{ fontSize: "0.8rem", color: "var(--muted)", marginTop: "4px" }}>Plano aberto final — tagline</p>
+  </div>
+  <div>
+    <img src="/frames/v2_001.jpg" alt="Personagem — amanhecer" style={{ width: "100%", borderRadius: "6px" }} />
+    <p style={{ fontSize: "0.8rem", color: "var(--muted)", marginTop: "4px" }}>Amanhecer — contraluz dourado</p>
+  </div>
+  <div>
+    <img src="/frames/v2_003.jpg" alt="Personagem — janela" style={{ width: "100%", borderRadius: "6px" }} />
+    <p style={{ fontSize: "0.8rem", color: "var(--muted)", marginTop: "4px" }}>Janela panorâmica — ambiente do quarto</p>
+  </div>
+</div>
 
 ---
 
@@ -128,8 +153,6 @@ Sombras duras          Sombras médias             Luz difusa nas cortinas
 
 ## Prompt base reutilizável
 
-Bloco de consistência — cole no início de novos prompts:
-
 ```
 Pessoa vestida inteiramente com morphsuit verde vivo, cobrindo todo o corpo incluindo
 cabeça e rosto, cor verde saturada (#00C840), sem feições visíveis, de pé segurando
@@ -148,6 +171,7 @@ minimalista estilo Apple, visual ultra premium, sombras suaves, look cinematogr�
 
 ## Limites de consistência
 
+<Warning>
 **Não alterar:**
 - Cor do personagem — `#00C840`, sem variações
 - Cobertura total do personagem — sem pele exposta
@@ -155,10 +179,13 @@ minimalista estilo Apple, visual ultra premium, sombras suaves, look cinematogr�
 - Progressão de luz natural — sem estrobos ou luzes artificiais coloridas
 - Outros personagens no plano
 - Tipografia final — mesma fonte, mesmo peso, branco
+</Warning>
 
+<Tip>
 **Pode variar:**
 - Ângulo e enquadramento
 - Proporção (21:9 · 4:3 · 9:16)
 - Momento da cena (noite · madrugada · amanhecer)
 - Ação do personagem (digitando · segurando · caminhando)
 - Idioma da tagline (PT · EN)
+</Tip>
