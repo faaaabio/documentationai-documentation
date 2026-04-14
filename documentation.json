@@ -51,6 +51,51 @@
         ]
       },
       {
+        "tab": "Ads",
+        "icon": "bullhorn",
+        "groups": [
+          {
+            "group": "Visão Geral e Planejamento",
+            "pages": [
+              {
+                "title": "Plano de Marketing",
+                "path": "plano/plano-marketing-zavvy-completo"
+              }
+            ]
+          },
+          {
+            "group": "Conteúdo e Redes Sociais",
+            "pages": [
+              {
+                "title": "Calendário Instagram",
+                "path": "plano/calendario-instagram-zavvy"
+              },
+              {
+                "title": "Relatório Posts e Stories",
+                "path": "plano/relatorio-posts-stories-zavvy"
+              }
+            ]
+          },
+          {
+            "group": "Documentação Interna",
+            "pages": [
+              {
+                "title": "Novos Cenários",
+                "path": "docs/novos-cenarios"
+              },
+              {
+                "title": "Prompts",
+                "path": "docs/prompts"
+              },
+              {
+                "title": "Referência Visual",
+                "path": "docs/referencia-visual"
+              }
+            ]
+          }
+        ]
+      },
+      {
         "tab": "Experiência",
         "icon": "search",
         "groups": [
